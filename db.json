@@ -4,43 +4,49 @@
         "id": 1,
         "name": "Kales",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "green-leafy rich in Vit-A",
+        "isInCart": false
       },
       {
         "id": 2,
         "name": "Cabbages",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "heavy-weighted with lots of mass",
+        "isInCart": false
       },
       {
         "id": 4,
         "name": "Potatoes",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "water resistant type that sinot prone to bugs",
+        "isInCart": false
       },
       {
         "id": 5,
         "name": "Yellow-beans",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "sweet,non-gassy",
+        "isInCart": false
       },
       {
         "id": 6,
         "name": "Corn",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "yellow corn"
       },
       {
        "id": 7,
        "name": "milk",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "rich taste and thick",
+        "isInCart": false
       },
       {
         "id": 8,
-        "name": "milk",
+        "name": "cauliflower",
         "amount": "200",
-        "description": "green-leafy rich in Vit-A"
+        "description": "white headed super nutritional",
+        "isInCart": false
       }
   
     ]
