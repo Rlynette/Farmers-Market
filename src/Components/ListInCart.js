@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import produce from "./Produce";
 import ProduceForm from "./ProduceForm";
 
-function ShoppingList(){
+function ListInCart(){
     const[produce,setProduce] = useState([]);
 }
 useEffect(() => {
@@ -22,4 +22,4 @@ useEffect(() => {
 
 
 
-export default ShoppingList;
+export default ListInCart   ;
