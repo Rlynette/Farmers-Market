@@ -2,52 +2,65 @@
   "products": [
       {
         "id": 1,
+        "date": "2019-12-16",
         "name": "Kales",
         "amount": "200",
         "description": "green-leafy rich in Vit-A",
-        "isInCart": false
+        "category": "Transportation"
       },
       {
         "id": 2,
+        "date": "2022-08-31",
         "name": "Cabbages",
         "amount": "200",
         "description": "heavy-weighted with lots of mass",
-        "isInCart": false
+        "category": "Transportation"
+        
       },
       {
-        "id": 4,
+        "id": 3,
+        "date": "2022-08-31",
         "name": "Potatoes",
         "amount": "200",
         "description": "water resistant type that sinot prone to bugs",
-        "isInCart": false
+        "category": "Transportation"
+
       },
       {
-        "id": 5,
+        "id": 4,
+        "date": "2022-09-29",
         "name": "Yellow-beans",
         "amount": "200",
         "description": "sweet,non-gassy",
-        "isInCart": false
+        "category": "Transportation"
+        
       },
       {
-        "id": 6,
+        "id": 5,
+        "date": "2019-12-16",
         "name": "Corn",
         "amount": "200",
         "description": "yellow corn",
-        "isInCart": false
+        "category": "Transportation"
+        
       },
       {
-       "id": 7,
+       "id": 6,
+       "date": "2019-12-16",
        "name": "milk",
         "amount": "200",
         "description": "rich taste and thick",
-        "isInCart": false
+        "category": "Transportation"
+        
       },
       {
-        "id": 8,
+        "id": 7,
+        "date": "2019-12-16",
         "name": "cauliflower",
         "amount": "200",
         "description": "white headed super nutritional",
-        "isInCart": false
+        "category": "Transportation"
+       
       }
   
     ]
