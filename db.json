@@ -6,7 +6,7 @@
         "name": "Kales",
         "amount": "200",
         "description": "green-leafy rich in Vit-A",
-        "category": "Transportation"
+        "category": "Vegetables"
       },
       {
         "id": 2,
@@ -14,8 +14,7 @@
         "name": "Cabbages",
         "amount": "200",
         "description": "heavy-weighted with lots of mass",
-        "category": "Transportation"
-        
+        "category": "Vegetables"  
       },
       {
         "id": 3,
@@ -23,7 +22,7 @@
         "name": "Potatoes",
         "amount": "200",
         "description": "water resistant type that sinot prone to bugs",
-        "category": "Transportation"
+        "category": "Roots"
 
       },
       {
@@ -32,7 +31,7 @@
         "name": "Yellow-beans",
         "amount": "200",
         "description": "sweet,non-gassy",
-        "category": "Transportation"
+        "category": "Legumes"
         
       },
       {
@@ -41,7 +40,7 @@
         "name": "Corn",
         "amount": "200",
         "description": "yellow corn",
-        "category": "Transportation"
+        "category": "Cereal"
         
       },
       {
@@ -50,7 +49,7 @@
        "name": "milk",
         "amount": "200",
         "description": "rich taste and thick",
-        "category": "Transportation"
+        "category": "Dairy"
         
       },
       {
@@ -59,7 +58,7 @@
         "name": "cauliflower",
         "amount": "200",
         "description": "white headed super nutritional",
-        "category": "Transportation"
+        "category": "Vegetables"
        
       }
   
