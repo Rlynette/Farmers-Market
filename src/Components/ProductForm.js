@@ -46,7 +46,7 @@ function ProductForm({ onAddProduct }) {
           Amount:
           <input
             type="numbers"
-            name=""
+            amount="amount"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
           />
@@ -56,7 +56,7 @@ function ProductForm({ onAddProduct }) {
           Description:
           <input
             type="text"
-            name=""
+            description="description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           />
