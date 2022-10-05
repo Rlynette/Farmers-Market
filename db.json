@@ -1,0 +1,47 @@
+{
+  "farm-produce": [
+      {
+        "id": 1,
+        "name": "Kales",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      },
+      {
+        "id": 2,
+        "name": "Cabbages",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      },
+      {
+        "id": 4,
+        "name": "Potatoes",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      },
+      {
+        "id": 5,
+        "name": "Yellow-beans",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      },
+      {
+        "id": 6,
+        "name": "Corn",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      },
+      {
+       "id": 7,
+       "name": "milk",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      },
+      {
+        "id": 8,
+        "name": "milk",
+        "amount": "200",
+        "description": "green-leafy rich in Vit-A"
+      }
+  
+    ]
+  }
