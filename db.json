@@ -32,7 +32,8 @@
         "id": 6,
         "name": "Corn",
         "amount": "200",
-        "description": "yellow corn"
+        "description": "yellow corn",
+        "isInCart": false
       },
       {
        "id": 7,

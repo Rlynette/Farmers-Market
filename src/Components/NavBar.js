@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 // import Home from "./Home";
 // import Product from "./Product";
 // import ProductForm from "./ProductForm";
 // import { NavLink } from "react-router-dom";
 
-function NavBar() {
+// function NavBar() {
 // const navStyle= {
 //     display: "grid",
 //     // backgroundColor: "green"
@@ -17,9 +17,9 @@ function NavBar() {
 //       <NavLink to='/productForm'>ProductForm</NavLink>
 //     </div>
 // )
-}
+// }
 
 
 
 
-export default NavBar;
+// export default NavBar;
