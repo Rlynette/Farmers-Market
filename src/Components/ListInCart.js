@@ -13,7 +13,12 @@ useEffect(() => {
 
 
 
-
+return (
+    <div>
+        <Produce produce={produce} />
+        <ProduceForm />
+    </div>
+)
 
 
 
