@@ -1,10 +1,9 @@
 import React from "react";
 import ProductContainer from "./ProductContainer";
-import { Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
-import ProductsList from "./ProductsList";
-import Product from "./Product";
+import Login from "./Login";
 
 
 function App(){
@@ -13,24 +12,15 @@ function App(){
       <div className="title">
           <h2>Farmers' Produce Record</h2>
         </div>
+      
+      <NavBar />
+      {/* <ProductContainer /> */}
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/producedetails' element={<ProductContainer/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
   
-      {/* <Switch>
-        <Route exact path='/'>
-          <NavBar />
-          <Home />
-        </Route>
-        <Route path='product'>
-          <NavBar />
-          <Product />
-        </Route>
-        <Route path='/productslist'>
-          <NavBar />
-          <ProductsList />
-        </Route>
-      </Switch> */}
-      
-      
-      <ProductContainer />
+      </Routes>
       </div>
     );
 }

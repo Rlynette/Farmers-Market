@@ -6,14 +6,16 @@ function NavBar() {
 const navStyle= {
     display: "grid",
     backgroundColor: "green"
-  // listStyleType: "circle"
+ 
   }
   return(
-<div className='navbar'style={navStyle}>
-//       <NavLink to='/'>Home</NavLink>
-//       <NavLink to='/product'>Product</NavLink>
-//       <NavLink to='/productsList'>ProductsList</NavLink>
-//     </div>
+<div className='navbar'>
+  <div className="nav-link">
+  <NavLink to='/'>Home</NavLink>
+     <NavLink to='/producedetails'>ProductContainer</NavLink>
+     <NavLink to='/login'>Login</NavLink>
+  </div>
+    </div>
 )
 }
 

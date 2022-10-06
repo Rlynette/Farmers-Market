@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ProductsList from "./ProductsList";
 import Search from "./Search";
 import AddProductForm from "./AddProductForm";
-import Product from "./Product";
 
 
 function ProductContainer() {
