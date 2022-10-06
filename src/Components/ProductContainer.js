@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ProductsList from "./ProductsList";
 import Search from "./Search";
+import AddProductForm from "./AddProductForm";
+import Product from "./Product";
 
 
 function ProductContainer() {
@@ -12,22 +14,23 @@ function ProductContainer() {
       .then((products) => setProducts(products));
 
   }, []);
+  function addProduct(product) {
+    console.log(products);
+    setProducts(prevstate => [...prevstate, product])
+  }
 
   function handleSearch(e) {
     const mySearch = e.target.value
     const updateProduct = products.filter(product => product.name.toLowerCase().includes(mySearch))
     setProducts(updateProduct)
   }
-  // function addProduct(product) {
-  //   console.log(products);
-  //   setProducts(previousState => [...previousState, product])
-  // }
+
   return (
     <div>
       <Search handleSearch={handleSearch} />
+      <AddProductForm addProduct={addProduct} />
       <ProductsList products={products}
       />
-      {/* <addProductForm addProduct={addProduct} /> */}
     </div>
   )
 }
