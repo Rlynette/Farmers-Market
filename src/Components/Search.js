@@ -2,7 +2,7 @@ import React from "react";
 
 function Search({handleSearch}) {
   return (
-    <div className="searching">
+    <div className="search">
       <input
         type="text"
         placeholder="Search available produce"

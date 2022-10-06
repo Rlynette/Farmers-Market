@@ -4,20 +4,20 @@ import Product from "./Product";
 
 function ProductsList({ products }) {
   return (
-    <table className="ui celled striped padded table">
+    <table className="table">
       <thead>
         <tr>
           <td>
-            <h3 className="ui center aligned header">Date</h3>
+            <h3 >Name</h3>
           </td>
           <td>
-            <h3 className="ui center aligned header">Description</h3>
+            <h3 >Description</h3>
           </td>
           <td>
-            <h3 className="ui center aligned header">Category</h3>
+            <h3 >Category</h3>
           </td>
           <td>
-            <h3 className="ui center aligned header">Amount</h3>
+            <h3 >Amount</h3>
           </td>
         </tr>
       </thead>
@@ -29,7 +29,7 @@ function ProductsList({ products }) {
               <Product product={product} key={product.id} />
             </tr>
           )
-        })};
+        })}
       </tbody>
     </table>
   )

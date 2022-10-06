@@ -12,7 +12,7 @@ const navStyle= {
 <div className='navbar'style={navStyle}>
 //       <NavLink to='/'>Home</NavLink>
 //       <NavLink to='/product'>Product</NavLink>
-//       <NavLink to='/productForm'>ProductForm</NavLink>
+//       <NavLink to='/productsList'>ProductsList</NavLink>
 //     </div>
 )
 }

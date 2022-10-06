@@ -2,19 +2,19 @@ import React, { useState } from "react";
 import Product from "./Product";
 
 function AddProductForm({ addProduct }) {
-  const [productId, setproductId] = useState(15);
+  const [productId, setproductId] = useState("");
   const [myProduct, setMyProduct ] = useState({
-    date: "",
+    name: "",
     description: "",
     category: "",
     amount: "",
   });
 
   function handleSubmit(e) {
-   if( myProduct.date && myProduct.description && myProduct.category && myProduct.amount){
+   if( myProduct.name && myProduct.description && myProduct.category && myProduct.amount){
     e.preventDefault();
     addProduct(myProduct);
-    setMyProduct({ date: "", description: "", category: "", amount: "" });
+    setMyProduct({ name: "", description: "", category: "", amount: "" });
     e.target.reset() 
    }
    else{
@@ -23,14 +23,15 @@ alert(" Incomplete")
    }
   }
   return (
-    <div className="ui segment">
-      <form className="ui form" onSubmit={handleSubmit}>
-        <div className="inline fields">
+    <div>
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="fields">
           <input
-            type="date"
-            name="date"
+            type="text"
+            name="name"
+            placeholder="Name"
             onChange={(e) =>
-              setMyProduct((prev) => ({ ...prev, date: e.target.value }))
+              setMyProduct((prev) => ({ ...prev, name: e.target.value }))
             }
           />
           <input
@@ -66,7 +67,7 @@ alert(" Incomplete")
             }
           />
         </div>
-        <button className="ui button" type="submit">
+        <button className="button" type="submit">
           Add Product
         </button>
       </form>
