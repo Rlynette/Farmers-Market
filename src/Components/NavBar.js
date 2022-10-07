@@ -3,20 +3,15 @@ import { NavLink } from "react-router-dom";
 
 
 function NavBar() {
-const navStyle= {
-    display: "grid",
-    backgroundColor: "green"
- 
-  }
-  return(
-<div className='navbar'>
-  <div className="nav-link">
-  <NavLink to='/'>Home</NavLink>
-     <NavLink to='/producedetails'>ProductContainer</NavLink>
-     <NavLink to='/login'>Login</NavLink>
-  </div>
+  return (
+    <div className='navbar'>
+      <div className="nav-link">
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/login'>Login</NavLink>
+        <NavLink to='/producedetails'>ProductData</NavLink>
+      </div>
     </div>
-)
+  )
 }
 
 

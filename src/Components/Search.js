@@ -8,7 +8,6 @@ function Search({handleSearch}) {
         placeholder="Search available produce"
         onChange={(e)=>handleSearch(e)}
       />
-      <i className="circular search link icon"></i>
     </div>
   );
 }

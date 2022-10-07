@@ -4,7 +4,7 @@ import Search from "./Search";
 import AddProductForm from "./AddProductForm";
 
 
-function ProductContainer() {
+function ProductData() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ function ProductContainer() {
 }
 
 
-export default ProductContainer;
+export default ProductData;
